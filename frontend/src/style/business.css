@@ -1,0 +1,160 @@
+.business-container {
+    background-color: black;
+    color: white;
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: fade-in 1.5s ease-in-out forwards; /* Animation for fade-in */
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .business-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .fade-in {
+    animation: fade-in 1.5s ease-in-out forwards;
+  }
+
+.first-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 100vw;
+  position: relative;
+}
+
+.first-text {
+  width: 50vw;
+  color: transparent; /* Make text transparent */
+  position: absolute;
+  left: 20px;
+  top: 25%;
+  animation: fadeIn 2s ease-in-out;
+  background-image: linear-gradient(
+    45deg,
+    #ffd700,
+    #ff4500
+  ); /* Add gradient color */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  background-clip: text;
+  text-fill-color: transparent; /* Make text color transparent */
+}
+
+.first-text > p {
+  font-size: 20px;
+}
+
+.hero-image {
+  background: url("../img/hero-img1.png") center/cover no-repeat;
+  width: 50vw;
+  height: 90vw;
+  margin-right: 20px;
+}
+
+.glow {
+  color: #fff;
+  font-size: 36px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.digital-solution {
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease-in-out;
+  background-image: linear-gradient(
+    45deg,
+    #ffd700,
+    #ff4500
+  ); /* Add gradient color */
+  -webkit-background-clip: text;
+}
+
+@media screen and (min-width: 675px) {
+  .first-text > h3 {
+    font-size: 70px;
+  }
+  .first-text > p {
+    font-size: 40px;
+  }
+
+  .hero-image {
+    width: 448px;
+    height: 805px;
+    margin-right: 60px;
+  }
+}
+
+.digital-solution {
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease-in-out;
+  background-image: linear-gradient(45deg, #ffd700, #ff4500);
+  -webkit-background-clip: text;
+}
+
+.bottom-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.add-section {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.add-section:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.add-section h2 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.add-section:hover h2 {
+  transform: translateY(-5px);
+}
+
+.add-section p {
+  transition: transform 0.3s ease-in-out;
+}
+
+.add-section:hover p {
+  transform: translateY(-5px);
+}

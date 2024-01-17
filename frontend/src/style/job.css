@@ -1,0 +1,96 @@
+.carousel {
+  /* padding: 5px; */
+}
+
+.job-page {
+  width: 100vw;
+  height: max(100vh, 100vw);
+  background: radial-gradient(
+    circle at -3.1% -4.3%,
+    rgb(57, 255, 186) 0%,
+    rgb(21, 38, 82) 90%
+  );
+}
+
+.thumb {
+  display: none !important;
+}
+
+.pincode-container {
+  margin-top: -10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+}
+
+.pincode-search {
+  display: inline-block;
+  border: 1px solid rgb(57, 255, 186);
+  height: 40px;
+  width: 400px;
+  padding: 0 10px;
+  font-size: 14px;
+  border-radius: 50px;
+  opacity: 0.5;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  -webkit-box-shadow: 23px 23px 31px rgb(57, 255, 186), -23px -23px 31px rgb(21, 38, 82);
+  box-shadow: 23px 23px 31px rgb(57, 255, 186), -23px -23px 31px rgb(21, 38, 82);
+  font-weight: 300;
+}
+
+
+::placeholder {
+  color: #0e0e0e;
+}
+.job-search-button {
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #b91372 0,
+    #6b0f1a 100%
+  );
+}
+
+.job-search-button:focus {
+  box-shadow: #e3a406 0 0 0 1.5px inset, rgba(220, 66, 5, 0.4) 0 2px 4px,
+    rgba(35, 66, 37, 0.3) 0 7px 13px -3px, #dc7805 0 -3px 0 inset;
+}
+
+.carousel-status {
+  display: none !important;
+}
+@media screen and (max-width: 500px) {
+  .pincode-search {
+    width: 70%;
+  }
+}
+
+.job-container {
+  width: 100vw;
+  /* background-color: red;  */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 10px;
+  
+}
+
+.job-card {
+    width: 300px;
+    color: rgb(142, 141, 141);
+    line-height: 1.5;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 10px 20px;
+    overflow: auto;
+}

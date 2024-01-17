@@ -1,0 +1,87 @@
+.donation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  line-height: 2;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+.title {
+  background: linear-gradient(45deg, #42b983, #2a7a5d);
+  font-size: 24px;
+  -webkit-background-clip: text;
+  color: transparent;
+  opacity: 0;
+  text-shadow: 2px 2px 4px rgba(17, 204, 57, 0.5); /* Add shadow effect */
+  animation: fadeInAnimation 1.5s forwards;
+  animation: fadeInGlow 1.5s forwards, glowing 2s infinite;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+
+.form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h4,
+h5 {
+  margin-bottom: 10px;
+}
+
+.button-div {
+  margin-top: 20px;
+}
+
+.donate-link {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #42b983;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  color: white;
+}
+
+.donate-link:hover {
+  background-color: #2a7a5d;
+}
+
+@keyframes fadeInGlow {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px #ef5406, 0 0 10px #f61707, 0 0 15px #ff4e03; /* Adjust the glow effect */
+    }
+    50% {
+      box-shadow: 0 0 20px #ef5406, 0 0 30px #f61707, 0 0 40px #ff4e03; /* Adjust the glow effect */
+    }
+    100% {
+      box-shadow: 0 0 5px #ef5406, 0 0 10px #f61707, 0 0 15px #ff4e03; /* Adjust the glow effect */
+    }
+  }
