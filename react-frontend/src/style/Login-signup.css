@@ -1,0 +1,118 @@
+
+.signup-body, .login-body {
+  background-color: #080710;
+  width: 100vw;
+  height: calc(100vh - 55px);
+  background: url('../img/login-signup.jpeg') no-repeat center/cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.login-page, .signup-page {
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: calc(50% + 30px);
+  left: 50%;
+  padding: 20px 35px;
+  backdrop-filter: blur(10px) saturate(200%);
+  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.38);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.login-page *, .signup-page * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+.login-page > h3, .signup-page>h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+
+.log-sign-label {
+  display: block;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.log-sign-input {
+  display: block;
+  height: 45px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+::placeholder {
+  color: #e5e5e5;
+}
+#login,
+#signup {
+  margin-top: 30px;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login, #signup {
+  background-color: #2cdf25;
+}
+
+#login:disabled, #signup:disabled {
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #040404 0,
+    #595a59c6 100%
+  );
+}
+
+
+.register-link {
+  font-size: 14px;
+  color: #211f1f;
+  margin-top: 15px;
+}
+
+.register-link a {
+  color: #acbac9;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.login-link {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #211f1f;
+  /* Change color as needed */
+}
+
+.login-link a {
+  color: #acbac9;/* Change color as needed */
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width:400px) {
+  .login-page, .signup-page {
+    width: 100%;
+  }
+}

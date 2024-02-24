@@ -1,0 +1,8 @@
+.err-message {
+    color: rgb(245 219 219) !important;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    z-index: 50;
+}
