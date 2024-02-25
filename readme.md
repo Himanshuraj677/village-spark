@@ -5,6 +5,8 @@ Our project addresses the following three Sustainable Development Goals (SDGs):
 * SDG 8: DECENT WORK AND ECONOMIC GROWTH
 * SDG 9: INDUSTRIES, INNOVATION, AND INFRASTRUCTURE
 
+[village spark](https://village-spark.netlify.app/)
+
 ## Overview
 
 VILLAGE.SPARK⚡ is a comprehensive platform that aims to empower rural communities by providing essential services and opportunities. The project is divided into four sections:
@@ -138,7 +140,7 @@ We welcome contributions from the community and are grateful for any help we rec
 
 - [@himanshuraj677](https://github.com/himanshuraj677) - Role (Developer)
 - [@yashrajsuman](https://github.com/yashrajsuman) - Role (Developer)
-- [@anonymous](https://github.com/author1) - Role (Designer)
+- [@tathagat](https://github.com/Tathagat-TGX) - Role (Designer)
 - [@anonymous](https://github.com/author2) - Role (Designer)
 
 ## Code of Conduct
@@ -164,9 +166,6 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).
 
-## License
-
-The project is licensed under the [MIT License](LICENSE).
 
 ## Questions
 
