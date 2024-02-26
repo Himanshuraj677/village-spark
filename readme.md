@@ -141,7 +141,7 @@ We welcome contributions from the community and are grateful for any help we rec
 - [@himanshuraj677](https://github.com/himanshuraj677) - Role (Developer)
 - [@yashrajsuman](https://github.com/yashrajsuman) - Role (Developer)
 - [@tathagat](https://github.com/Tathagat-TGX) - Role (Designer)
-- [@anonymous](https://github.com/author2) - Role (Designer)
+- [@rishabh](https://github.com/singhrishabh207) - Role (Designer)
 
 ## Code of Conduct
 
