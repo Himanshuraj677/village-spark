@@ -5,7 +5,7 @@ Our project addresses the following three Sustainable Development Goals (SDGs):
 * SDG 8: DECENT WORK AND ECONOMIC GROWTH
 * SDG 9: INDUSTRIES, INNOVATION, AND INFRASTRUCTURE
 
-[village spark](https://village-spark.netlify.app/)
+[village spark](https://village-spark.app/)
 
 ## Overview
 
